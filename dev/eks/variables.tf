@@ -6,11 +6,16 @@ variable "region" {
 }
 
 variable "cluster_name" {
-  default = "my-eks-cluster"
+  default = "dev-eks-cluster"
+}
+
+variable "kubernetes_version" {
+  default     = 1.27
+  description = "kubernetes version"
 }
 
 variable "vpc_id" {
-    default = "vpc-0a4fb88ae693fa824"
+    default = "vpc-012675d45f3fb0ff4"
 }
 variable "public_subnet_ids" {
   type = list(string)

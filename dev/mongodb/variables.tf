@@ -2,13 +2,13 @@ variable "region" {
   default = "us-east-1"
 }
 
-variable "jenkins_instance_type" {
+variable "mongodb_instance_type" {
   default = "t3.medium"
 }
 
-variable "jenkins_ami" {
+variable "mongodb_ami" {
   # Ubuntu 24.04 AMI in us-east-1 (can be updated based on latest)
-  default = "ami-02b5902a0c7eef249"
+  default = "ami-018c1789283fde159"
 }
 
 variable "vpc_id" {
