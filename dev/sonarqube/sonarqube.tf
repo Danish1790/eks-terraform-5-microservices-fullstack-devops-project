@@ -48,7 +48,7 @@ resource "aws_instance" "sonarqube" {
 
 
   root_block_device {
-    volume_size = 40              # ✅ 30 GB
+    volume_size = 40             # ✅ 35 GB
     volume_type = "gp3"           # ✅ gp3
     iops        = 3000            # Optional: gp3 default is 3000
     throughput  = 125             # Optional: gp3 default is 125
