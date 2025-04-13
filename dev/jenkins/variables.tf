@@ -12,15 +12,15 @@ variable "jenkins_ami" {
 }
 
 variable "vpc_id" {
-  default = "vpc-012675d45f3fb0ff4"
+  default = "vpc-023d90f2e392ca23f"
 }
 
 variable "aws_subnet_public1" {
-  default = "subnet-0205c36aa78677abc"
+  default = "subnet-01afa1fc2e3ccef14"
 }
 
 variable "aws_subnet_public2" {
-  default = "subnet-0ac467e7f52dbd1cf"
+  default = "subnet-0c5132e193c829fcb"
 }
 
 variable "aws_key_pair_danish" {
